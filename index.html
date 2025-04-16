@@ -3,28 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cricto Talk</title>
+    <title>Live Scores - Cricto Talk</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Cricto Talk</h1>
+        <h1>Live Cricket Scores</h1>
     </header>
     
     <nav>
-        <a href="score.html">Home</a>
+        <a href="#">Home</a>
         <a href="rules.html">Rules</a>
-        <a href="index.html">Teams</a>
+        <a href="team.html">Teams</a>
         <a href="contact.html">Contact</a>
     </nav>
     
     <div class="container">
-        <div class="section" id="home">
-            <h2>Welcome to Cricto Talk</h2>
+        <div class="section" id="live-scores">
+            <h2>Latest Cricket Matches</h2>
             <div class="image-container">
-                <img src="./assets/home2.jpg" alt="" class="image">
-                <a href="./teams.html" target="_blank"><div class="text-overlay">Explore the teams</div></a>
+                <img src="assets/live.jpg" alt="Live Cricket" class="image">
+                <a href="https://www.cricbuzz.com/"><div class="text-overlay">Live Scores</div></a>
             </div>
+            <p>Stay updated with real-time scores from ongoing matches.</p>
+            <table border="1" class="score-table">
+                <tr>
+                    <th>Match</th>
+                    <th>Team 1</th>
+                    <th>Team 2</th>
+                    <th>Score</th>
+                    <th>Status</th>
+                </tr>
+                <tr>
+                    <td>India vs South Africa</td>
+                    <td>South Africa</td>
+                    <td>India</td>
+                    <td>254/6 (49 ov)</td>
+                    <td>IND Won</td>
+                </tr>
+                <tr>
+                    <td>England vs Pakistan</td>
+                    <td>England</td>
+                    <td>Pakistan</td>
+                    <td>180/5 (35.0 ov)</td>
+                    <td>Live</td>
+                </tr>
+            </table>
+        </div>
     </div>
     
     <footer>
